@@ -1,5 +1,5 @@
-
 #!/bin/bash
+
 if [ -z "$1" ]
 then
     echo "Date: $(date)"
@@ -20,4 +20,3 @@ else
     echo "Hostname: $(hostname)" >> report.txt
     echo "Uptime: $(uptime)" >> report.txt
 fi
-
