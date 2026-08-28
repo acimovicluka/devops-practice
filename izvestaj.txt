@@ -1,4 +1,0 @@
-Izvestaj za: Luka
-Datum: Fri Aug 28 15:22:09 CEST 2026
-Hostname: DESKTOP-EPUBG1H
-Uptime:  15:22:09 up 1 min,  1 user,  load average: 0.00, 0.00, 0.00

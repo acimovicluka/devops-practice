@@ -1,23 +1,23 @@
-#!/bin/bash
 
+#!/bin/bash
 if [ -z "$1" ]
 then
-    echo "Datum: $(date)"
+    echo "Date: $(date)"
     echo "Hostname: $(hostname)"
     echo "Uptime: $(uptime)"
 
-    echo "Datum: $(date)" > izvestaj.txt
-    echo "Hostname: $(hostname)" >> izvestaj.txt
-    echo "Uptime: $(uptime)" >> izvestaj.txt
+    echo "Date: $(date)" > report.txt
+    echo "Hostname: $(hostname)" >> report.txt
+    echo "Uptime: $(uptime)" >> report.txt
 else
-    echo "Izvestaj za: $1"
-    echo "Datum: $(date)"
+    echo "Report for: $1"
+    echo "Date: $(date)"
     echo "Hostname: $(hostname)"
     echo "Uptime: $(uptime)"
 
-    echo "Izvestaj za: $1" > izvestaj.txt
-    echo "Datum: $(date)" >> izvestaj.txt
-    echo "Hostname: $(hostname)" >> izvestaj.txt
-    echo "Uptime: $(uptime)" >> izvestaj.txt
+    echo "Report for: $1" > report.txt
+    echo "Date: $(date)" >> report.txt
+    echo "Hostname: $(hostname)" >> report.txt
+    echo "Uptime: $(uptime)" >> report.txt
 fi
 
