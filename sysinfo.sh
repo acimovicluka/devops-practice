@@ -20,3 +20,5 @@ else
     echo "Hostname: $(hostname)" >> report.txt
     echo "Uptime: $(uptime)" >> report.txt
 fi
+
+
