@@ -1,3 +1,4 @@
 report.txt
-
-# MORE LATER 
+.terraform/
+*.tfstate
+*.tfstate.backup
